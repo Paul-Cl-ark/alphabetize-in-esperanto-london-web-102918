@@ -3,5 +3,6 @@
 
 def alphabetize(arr)
   sorted_expressions = []
+  arr.sort_by
   sorted_expressions
 end
