@@ -2,9 +2,6 @@
 # use sort_by |phrase| phrase first letter alphabetically
 
 def alphabetize(arr)
-  sorted_expressions = []
   arr.sort_by do |phrase| phrase.downcase
-    
   end
-  sorted_expressions
 end
