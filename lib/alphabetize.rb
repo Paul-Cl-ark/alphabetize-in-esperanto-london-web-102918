@@ -1,5 +1,5 @@
 # ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-# use sort_by 
+# use sort_by |phrase| 
 
 def alphabetize(arr)
   # code here
