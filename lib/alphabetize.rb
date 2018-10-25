@@ -2,5 +2,5 @@
 # use sort_by |phrase| phrase first letter alphabetically
 
 def alphabetize(arr)
-  # code here
+  sorted_expressions
 end
