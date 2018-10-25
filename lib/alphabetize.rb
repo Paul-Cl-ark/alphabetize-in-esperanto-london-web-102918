@@ -1,4 +1,4 @@
-ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+# ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 # use sort_by |phrase| phrase first letter alphabetically
 
 
@@ -9,6 +9,7 @@ ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 # end
 
 def alphabetize(arr)
+  esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |phrase| phrase.downcase
   phrase.split("")
   end
