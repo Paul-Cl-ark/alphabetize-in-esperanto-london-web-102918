@@ -3,6 +3,8 @@
 
 def alphabetize(arr)
   sorted_expressions = []
-  arr.sort_by
+  arr.sort_by do |phrase|
+    
+  end
   sorted_expressions
 end
