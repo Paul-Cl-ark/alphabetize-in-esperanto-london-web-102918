@@ -12,5 +12,6 @@ def alphabetize(arr)
   esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |phrase| phrase.downcase
   phrase.chars.map do |letter|
+    esperanto_alphabet.index(letter)
   end
 end
