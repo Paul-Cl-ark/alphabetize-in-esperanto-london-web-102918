@@ -9,9 +9,20 @@
 # end
 
 def alphabetize(arr)
+# sets the alphabet with new characters
+
   esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  arr.sort_by do |phrase| phrase
+
+# sorts english characters
+
+arr.sort_by do |phrase| phrase
+
+# maps the esperanto alphabet
+
   phrase.chars.map do |letter|
+
+# compares each letter of the phrase to it's index in the alphabet
+#
     esperanto_alphabet.index(letter)
   end
   end
