@@ -22,8 +22,12 @@ arr.sort_by do |phrase| phrase
   phrase.chars.map do |letter|
 
 # compares each letter of the phrase to it's index in the alphabet
-# https://medium.com/@ensallee/the-difference-between-sort-and-sort-by-in-ruby-253171f52b15
+# still in sort_by method 
+
     esperanto_alphabet.index(letter)
+    
   end
   end
 end
+
+# https://medium.com/@ensallee/the-difference-between-sort-and-sort-by-in-ruby-253171f52b15
