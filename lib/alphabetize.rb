@@ -15,18 +15,18 @@ def alphabetize(arr)
 
 # sorts english characters
 
-arr.sort_by do |phrase| phrase
+  arr.sort_by do |phrase| phrase
 
 # maps the esperanto alphabet
 
-  phrase.chars.map do |letter|
+    phrase.chars.map do |letter|
 
 # compares each letter of the phrase to it's index in the alphabet
 # still in sort_by method 
 
     esperanto_alphabet.index(letter)
     
-  end
+    end
   end
 end
 
